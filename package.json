@@ -15,6 +15,7 @@
     "generate-docs": "jsdoc -c jsdoc.json"
   },
   "devDependencies": {
+    "@types/p5": "^1.7.6",
     "copy-webpack-plugin": "^11.0.0",
     "eslint-plugin-jsdoc": "^50.6.1",
     "html-webpack-plugin": "^5.6.0",
