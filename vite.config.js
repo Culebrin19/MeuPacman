@@ -5,4 +5,5 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
+  base: "homepage:https://Culebrin19.github.io/MeuPacman",
 });

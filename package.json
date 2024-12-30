@@ -1,7 +1,8 @@
 {
-  "name": " ",
+  "name": "MeuPacman",
   "version": "0.0.1",
   "description": "",
+  "homepage":"https://Culebrin19.github.io/MeuPacman",
   "private": true,
   "keywords": [
     ""
@@ -11,11 +12,13 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "generate-docs": "jsdoc -c jsdoc.json"
+    "generate-docs": "jsdoc -c jsdoc.json",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "@types/p5": "^1.7.6",
-    "eslint-plugin-jsdoc": "^50.6.1"
+    "eslint-plugin-jsdoc": "^50.6.1",
+    "gh-pages": "^6.2.0"
   },
   "dependencies": {
     "docdash": "^2.0.2",
