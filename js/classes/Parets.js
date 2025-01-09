@@ -18,6 +18,7 @@ class Parets {
     this.tileSize = tileSize;
   }
 
+
   draw() {
     for (let x = 0; x < WIDTH_CANVAS; x = x + pixels) {
       image(img, x, 0);
@@ -29,10 +30,11 @@ class Parets {
       image(img, WIDTH_CANVAS - pixels, y);
     }
   }
+  }
 
   function preload(){
-    img=loadImage('roca.png');
-    pacman=loadImage('pacRight.png');
+    img=loadImage('media/img/roca.png');
+    pacman=loadImage('media/img/pacRight.png');
   }
 
   function setup() {
