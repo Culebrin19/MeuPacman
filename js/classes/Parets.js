@@ -7,8 +7,8 @@ const limitTop = pixels;
 const limitBot = HEIGHT_CANVAS - pixels;
 const limitLeft = pixels;
 const limitRight = WIDTH_CANVAS - pixels;
-const coordYCercle = 64;
-const coordXCercle = 64;
+let coordYCercle = 64;
+let coordXCercle = 64;
 
 class Parets {
   constructor(image, canvasWidth, canvasHeight, tileSize) {
